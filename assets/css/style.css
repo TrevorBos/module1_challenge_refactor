@@ -1,7 +1,20 @@
+/* Universal styling for the whole page unless otherwise specified */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+/*generic styling for all individual tags */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
 }
 
 /* Styling for the body, potentially not needed, could probably put in the * styling above */
@@ -45,18 +58,8 @@ body {
     margin-left: 25px;
 }
 
-/*generic styling for all individual tags */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-/*Styling for the hero section*/
+/*Styling for the hero section (background image under the header)*/
 
 .hero {
     height: 800px;
