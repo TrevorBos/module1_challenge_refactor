@@ -17,7 +17,7 @@ p {
     font-size: 16px;
 }
 
-/* Styling for the body, potentially not needed, could probably put in the * styling above */
+/* Styling for the body */
 
 body {
     background-color: #d9dcd6;
@@ -25,23 +25,23 @@ body {
 
 /* Styling for the header section - Made changes by swapping the div to nav */
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -49,11 +49,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -127,6 +127,14 @@ body {
 
 /*Styling for the search engine optimization section */
 
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -136,25 +144,8 @@ body {
     max-height: 200px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
 /*Styling for the online reputation management section */
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -164,17 +155,17 @@ body {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-/*Styling for the social media marketing section */
-
-.social-media-marketing h2 {
+.online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing img {
+.online-reputation-management img {
     max-height: 200px;
 }
+
+
+/*Styling for the social media marketing section */
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -184,17 +175,26 @@ body {
     background-color: #0072bb;
     color: #ffffff;
 }
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
 
 /*Styling for the footer section*/
 /* Changed the h2 to an h4 so that it went in the proper order of the page */
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h4 {
+footer h4 {
     font-size: 20px;
 }
