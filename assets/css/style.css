@@ -24,6 +24,7 @@ body {
 }
 
 /* Styling for the header section - Made changes by swapping the div to nav */
+/* Also removed the dot at the begin since they are no longer classes. */
 
 header {
     padding: 20px;
@@ -187,6 +188,7 @@ header nav ul li {
 
 /*Styling for the footer section*/
 /* Changed the h2 to an h4 so that it went in the proper order of the page */
+/* Also removed the dot at the begin since they are no longer classes. */
 
 footer {
     padding: 30px;
